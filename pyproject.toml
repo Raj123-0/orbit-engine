@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orbit-engine"
+version = "0.1.0"
+description = "High-precision orbital propagators, Lambert targeting, and transfer optimization for astrodynamics"
+readme = "README.md"
+authors = [{ name = "Raj123-0" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0.0"]
